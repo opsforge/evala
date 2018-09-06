@@ -15,9 +15,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/krasimir/gid.git"
+    "url": "git+https://github.com/opsforge/evala.git"
   },
-  "author": "Krasimir Tsonev",
+  "author": "Krasimir Tsonev / George Svachulay",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.39",
@@ -61,8 +61,8 @@
     "evala": "./src/server.js"
   },
   "bugs": {
-    "url": "https://github.com/krasimir/gid/issues"
+    "url": "https://github.com/opsforge/evala/issues"
   },
-  "homepage": "https://github.com/krasimir/gid#readme",
+  "homepage": "https://github.com/opsforge/evala#readme",
   "keywords": []
 }
