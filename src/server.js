@@ -9,8 +9,9 @@ const pty = require('node-pty');
 const argv = require('yargs').argv;
 
 const port = argv.port || PORT;
-const host = '127.0.0.1';
+const host = '0.0.0.0';
 const ALLOWED_ORIGINS = [
+  'localhost',
   '0.0.0.0',
   '127.0.0.1',
   'home.localhost',

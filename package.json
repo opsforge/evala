@@ -1,7 +1,7 @@
 {
-  "name": "evala",
-  "version": "2.1.0",
-  "description": "",
+  "name": "evala-opsforge",
+  "version": "2.2.1",
+  "description": "Evala customised for ANViL",
   "main": "src/server.js",
   "scripts": {
     "build-static": "cpx \"src/static-files/**/*.*\" build",
@@ -40,9 +40,10 @@
     "kuker-emitters": "6.7.3",
     "moment": "^2.20.1",
     "prop-types": "^15.6.0",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-helmet": "^5.2.0",
+    "react-iframe": "^1.2.0",
     "regenerator-runtime": "^0.11.1",
     "stent": "5.0.2",
     "uglify-js": "^3.3.9",
@@ -58,5 +59,10 @@
   },
   "bin": {
     "evala": "./src/server.js"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/krasimir/gid/issues"
+  },
+  "homepage": "https://github.com/krasimir/gid#readme",
+  "keywords": []
 }

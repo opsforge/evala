@@ -4,7 +4,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
-import ReactTerminal from './ReactTerminal';
+// import ReactTerminal from './ReactTerminal';
+import Iframe from 'react-iframe';
 import SplitGrid from './SplitGrid';
 
 class TerminalWindow extends React.Component {
@@ -41,7 +42,11 @@ class TerminalWindow extends React.Component {
           <span>{ this._renderWindowTitle() }</span>
         </div>
         <div className='fakeScreen'>
-          <SplitGrid content={ ReactTerminal } />
+         {/*
+           <SplitGrid content={ ReactTerminal } />
+          */}
+          <Iframe url="http://localhost:8001"
+            position="relative"/>
         </div>
       </div>
     );
