@@ -1,6 +1,6 @@
 {
   "name": "evala-opsforge",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "description": "Evala customised for ANViL",
   "main": "src/server.js",
   "scripts": {
@@ -58,7 +58,7 @@
     "node-pty": "^0.7.4"
   },
   "bin": {
-    "evala": "./src/server.js"
+    "evala-opsforge": "./src/server.js"
   },
   "bugs": {
     "url": "https://github.com/opsforge/evala/issues"
